@@ -1,17 +1,6 @@
 p{
-    font-size: 12px;
-
-    letter-spacing: 0.2em;
-    line-height: 1.5em;
-
-
-    /*letter-spacing: 2px;
-    word-spacing: 2px;
-    line-height: 20px;
-    */
+    font-size 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
 }
 
-/*
-    letter-spacing: inherit;
-    letter-spacing: normal;
-*/
