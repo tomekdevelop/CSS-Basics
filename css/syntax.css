@@ -1,8 +1,21 @@
-article p:first-of-type{
+li:nth-child(1), li:nth-child(7){
     font-weight: bold;
     font-size: 18px;
 }
 
-article p:last-of-type{
+/*
+li:nth-child(even){
+    background: grey;
+}
+
+li:nth-child(odd){
+    background: pink;
+}
+*/
+.first li:nth-child(2n + 1){
+    color: green;
+}
+
+.second li:nth-child(3n +1){
     color: red;
 }
