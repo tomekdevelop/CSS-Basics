@@ -1,11 +1,17 @@
-a{
-    color: crimson;
-    text-decoration: none;
-    font-weight: bold;
+p{
+    font-size: 12px;
+
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+
+
+    /*letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    */
 }
 
-a:hover{
-    color: darkmagenta:
-    text-decoration:  underline;
-    background-color: aquamarine;
-}
+/*
+    letter-spacing: inherit;
+    letter-spacing: normal;
+*/
