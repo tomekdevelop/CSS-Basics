@@ -1,19 +1,7 @@
-span[class~="deck"]{
-    color: purple;
-}
-
-div[id]{
-    background: grey;
-}
-
-a[title="Search engine"]{
+a:hover{
     color: red;
 }
 
-a[href$="pdf"]{
-    color: yellow;
-}
-
-a[href^="http"]{
-    color: pink;
+#main-content:hover{
+    background: black;
 }
