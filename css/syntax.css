@@ -1,7 +1,14 @@
-article.featured-content{
-    background: red;
+
+/*
+********************
+*
+*RESET CSS
+*
+*********************/
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 
-div.featured-content{
-    background: blue;
-}
