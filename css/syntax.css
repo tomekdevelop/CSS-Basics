@@ -1,3 +1,4 @@
-#main-content > p{
-    color: red;
+/*kolor zielony dla pierwszego p, które stoi za h2*/
+#all-articles h2 + p{
+    color: green;
 }
