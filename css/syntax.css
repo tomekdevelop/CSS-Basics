@@ -1,9 +1,10 @@
-.static-width{
-    width: 300px;
+#banner{
+    background-color: #606060;
+    width: 100%;
     height: 300px;
-    background-color: #606060;
-    background-image: url(../img/yerba.jpg) no-repeat top center;
-    background-color: #606060;
-    background-size: 200px;
+    background-image: url(../img/yerba.jpg), url(../img/iko.jpg);
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%;
 }
 
