@@ -1,36 +1,43 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>CSS For Beginners</title>
-    <link rel="stylesheet" type="text/css" href="css/syntax.css">
-
-    <style>
-        body{
-            background: #eee;
-        }
-
-        #main-content{
-            background: #fff;
-            width: 80%;
-            margin: 0 auto;
-            height: 100%;
-            padding: 2%;
-            position: relative;
-            min-height: 700px;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <title>Bikes!</title>
+    <link href="css/syntax.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-    <div id="main-content">
+<div id="wrapper">
 
-        <h1>CSS FOR Beginners</h1>
+    <nav id="main-navigation">
+        <ul>
+            <li><a href="#" class="current">Bikes</a></li>
+            <li><a href="#">Best Buy</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
 
-        <a class="button">Click Me</a>
-
-
+    <div id="lead-banner">
+        <img src="images/lead-banner.jpg" alt="Bikes!">
     </div>
+
+    <section id="shop">
+        <img class="product-image" src="images/bike.jpg" alt="RetroSyperb image">
+        <h2 class="product-name">Bicycle RetroSyperb Vii #1</h2>
+        <span class="price">299.99$</span>
+        <a class="add-to-bag" href="#">Add to shopping basket</a>
+        <img class="rating" src="images/stars.png" alt="star-rating">
+    </section>
+
+    <div id="footer-banner">
+        <img src="images/footer.jpg" alt="pic of bike">
+    </div>
+
+</div>
 
 </body>
 </html>
